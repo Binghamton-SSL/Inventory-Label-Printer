@@ -1,0 +1,18 @@
+include CHANGELOG
+include COPYING
+include README
+include setup.py
+
+recursive-include bluetooth *.py
+
+recursive-include bluez *.c
+recursive-include bluez *.h
+recursive-include msbt *.c
+recursive-include macos *.c
+recursive-include macos *.h
+
+recursive-include examples *.py
+
+recursive-exclude * *.pyc
+recursive-exclude * *.o
+recursive-exclude * *.opp
