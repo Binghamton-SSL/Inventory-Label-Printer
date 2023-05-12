@@ -25,7 +25,7 @@ def download_images(api_key, ids):
 
     # Set up Chrome options for headless browsing and download settings
     chrome_options = ChromeOptions()
-    chrome_options.add_argument("--headless")  # Run in headless mode (no GUI)
+    # chrome_options.add_argument("--headless")  # Run in headless mode (no GUI)
     # Disable the sandbox mode for Linux
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration
